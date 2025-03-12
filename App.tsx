@@ -1,14 +1,12 @@
 import React from "react";
-import Card from "./Card";
+import MyComponent from "./Mylist";
 
-const App: React.FC =()=>{
-  return <>
-  <Card />
-  <Card />
-  </>
+
+const App:React.FC =()=>{
+  return (<>
+  <MyComponent />
+  
+  </>)
 }
 
-
-
-
-export default App;
+export default App
